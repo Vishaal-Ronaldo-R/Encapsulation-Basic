@@ -1,0 +1,29 @@
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Visual Studio
+.vs/
+*.sln.docstates
+*.user
+*.userosscache
+*.sln.iml
+
+# ReSharper
+.idea/
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+*.snupkg
+
+# User-specific files
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
