@@ -6,7 +6,7 @@ namespace Balance
     
     public class BankBalance
     {
-        private static int accountBalance = 0;
+        protected static int accountBalance = 0;
     
 // The setter method adds the amount to the existing balance.
 
@@ -18,7 +18,7 @@ namespace Balance
     }
 
 // The getter method displays the current balance of the account.
-    
+
     public void Getter()
      {
         Console.WriteLine("The account balance is " + accountBalance);
